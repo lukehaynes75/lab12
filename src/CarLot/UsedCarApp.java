@@ -23,7 +23,7 @@ public class UsedCarApp {
 				System.out.println(usedCars.get(x));
 			}
 			System.out.println("Cars are listed in order 1 - 6. Please select the car you would like to buy");
-			userNum = scan.nextInt();
+			userNum = scan.nextInt() - 1;
 			System.out.println(usedCars.get(userNum));
 			System.out.println("was this your car? Yes/No");
 			String userAnswer = scan.next();
